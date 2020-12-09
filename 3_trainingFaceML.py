@@ -7,7 +7,7 @@ embeddingFile = "output/embeddings.pickle"
 recognizerFile = "output/recognizer.pickle"
 labelEncFile = "output/le.pickle"
 
-print("Loading face embedding......")
+print("Loading face embedding....)
 data = pickle.loads(open(embeddingFile,"rb").read())
 
 print("Encoding labels.....")

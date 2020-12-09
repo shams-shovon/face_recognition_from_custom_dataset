@@ -61,7 +61,7 @@ data = {"embeddings":knownEmbeddings, "names": knownNames}
 f = open(embeddingFile,"wb")
 f.write(pickle.dumps(data))
 f.close()
-print("Process Complete")
+print("Process complete")
 
     
     

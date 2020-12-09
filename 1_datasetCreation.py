@@ -23,7 +23,7 @@ with open('student.csv','a') as csvFile:
     write.writerow(info)
 csvFile.close()
 
-print("Starting Image capturing.........")
+print("Starting Image capturing......")
 cam = cv2.VideoCapture(0)
 time.sleep(2.0)
 total = 0
